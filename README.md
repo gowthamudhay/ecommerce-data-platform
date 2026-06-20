@@ -87,3 +87,27 @@ Power BI is used to build dashboards for business insights.
 ---
 
 ## Project Structure
+ecommerce-data-platform/
+│
+├── glue_jobs/ # AWS Glue ETL scripts
+├── data/ # Sample datasets (optional)
+├── dashboards/ # Power BI dashboard screenshots
+├── sql_queries/ # Athena SQL queries
+├── README.md # Project documentation
+
+
+---
+
+## Future Improvements
+
+- Add real-time data ingestion using streaming (Kafka / Kinesis)
+- Include order and revenue analytics
+- Automate ETL pipeline scheduling
+- Deploy dashboard on cloud
+
+---
+
+## Author
+
+Data Engineering Portfolio Project
+Built as part of learning end-to-end cloud data engineering workflow.
